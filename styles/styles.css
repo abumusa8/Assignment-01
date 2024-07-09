@@ -1,0 +1,35 @@
+
+
+/* header styles */
+
+
+header{
+    
+    height: 650px;
+    background-image: url(../images/Hero-bg.png);
+    
+    
+}
+
+.main-header{
+    width: 990px;
+    margin: 0 auto;
+    justify-content: center;
+  
+}
+.header-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.header-discription{
+    text-align: center;
+    font-size: 26px;
+}
+.header-bg{
+    width: 240px;
+   padding-left: 350px;
+}
+.header-btn{
+    text-align: center;
+}

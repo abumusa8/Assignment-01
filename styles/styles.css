@@ -74,3 +74,50 @@ p{
 .img1{
     width: 270px;
 }
+
+
+/* my-Current-Target */
+
+.my-target{
+    width: 1140px;
+    justify-content: center;
+}
+.my-Current-title{
+
+    text-align: center;
+}
+.my-current-discription{
+    text-align: center;
+}
+
+.my-Current-Target{
+    background-color: #FFFFFF;
+    gap: 120px;
+    justify-content: center;
+    display: flex;
+}
+.container1{
+
+}
+.container2{
+    background-color: #EBEBEB;
+}
+.container3{
+    padding: 50px;
+    background-color: #FFDF00;
+}
+
+/* footer styles */
+footer{
+    margin: 0 auto;
+    width: 1140px;
+    height: 213px;
+    background-image: url(../images/handshake.jpg);
+    text-align: center;
+}
+
+.footer2{
+    display: flex;
+    gap: 600px;
+    justify-content: center;
+}

@@ -1,14 +1,20 @@
 
 
+
+/* font- add */
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* header styles */
-
-
 header{
     
     height: 650px;
-    background-image: url(../images/Hero-bg.png);
-    
-    
+    background-image: url(../images/Hero-bg.png);  
 }
 
 .main-header{
@@ -34,6 +40,16 @@ header{
     text-align: center;
 }
 
+.hed-btn{
+    border-radius: 10px;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    font-size: 20;
+    font-weight: 600;
+    
+}
+
 /* devlopment */
 
 .web-title{
@@ -50,6 +66,8 @@ header{
 }
 .web-header{
     text-align: center;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .banner1{
@@ -61,6 +79,15 @@ header{
 
 .banner-contint{
     width: 470px;
+}
+
+.bnr-1-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.bnr-title{
+    font-size: 16px;
 }
 
 h4{
@@ -131,8 +158,14 @@ p{
     border-radius: 10px;
     width: 215px;
     padding: 40px 40px 40px;
-    padding-top: 5px;
     background-color: #FFDF00;
+}
+
+/* shared stylesh */
+.btn-text a{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
 }
 
 
@@ -146,7 +179,8 @@ p{
 
 .loren-btn{
     border: 1px solid black;
-    width: 80px;
+    width: 23%;
+    padding: 10px;
 }
 
 /* video styles */
@@ -199,12 +233,13 @@ button[type="submit"]{
 }
 
 .footer2{
+    display: block;
     margin: 0 auto;
-    width: 80%;
     display: flex;
     gap: 500px;
     justify-content: center;
 }
+
 
 .ft-img{
     padding-left: 10px;

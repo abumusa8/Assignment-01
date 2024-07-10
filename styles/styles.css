@@ -76,6 +76,17 @@ p{
 }
 
 
+/* My Inspiration */
+
+
+.Inspiration-title{
+    text-align: center;
+}
+.interpretation-discription{
+    text-align: center;
+}
+
+
 /* my-Current-Target */
 
 .my-target{
@@ -86,38 +97,119 @@ p{
 
     text-align: center;
 }
-.my-current-discription{
+/* .my-current-discription{
     text-align: center;
-}
+} */
 
 .my-Current-Target{
     background-color: #FFFFFF;
-    gap: 120px;
+    gap: 10px;
     justify-content: center;
     display: flex;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    
+    
+}
+
+.my-current-p{
+    text-align: center;
 }
 .container1{
-
+    border-radius: 10px;
+    width: 215px;
+    padding: 30px 30px 30px;
+    background-color: #FDCCC5;
 }
 .container2{
+    border-radius: 10px;
+    width: 215px;
+    padding: 30px 30px 30px;
     background-color: #EBEBEB;
 }
 .container3{
-    padding: 50px;
+    border-radius: 10px;
+    width: 215px;
+    padding: 40px 40px 40px;
+    padding-top: 5px;
     background-color: #FFDF00;
+}
+
+
+
+.content-text{
+    padding: 20px 20px 20px 20px;
+}
+
+
+/* shared stylesh */
+
+.loren-btn{
+    border: 1px solid black;
+    width: 80px;
+}
+
+/* video styles */
+
+.my-Inspiration{
+   margin-bottom: 50px;
+   margin-top: 70px;
+}
+.video{
+    margin-top: 60px;
+    text-align: center;
 }
 
 /* footer styles */
 footer{
+    padding: 64px 68px 64px 68px;
+    border-radius: 10px;
     margin: 0 auto;
-    width: 1140px;
+    margin-bottom: 40px;
+    width: 50%;
     height: 213px;
     background-image: url(../images/handshake.jpg);
     text-align: center;
 }
 
+.footer-title{
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+.footer-discription{
+    color: white;
+}
+
+input[type="text"]{
+    border-radius: 10px;
+    padding: 10px;
+    width: 43%;
+    border: none;
+    gap: 40px;
+}
+button[type="submit"]{
+    height: 37px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 70px;
+    font-weight: 600;
+}
+
 .footer2{
+    margin: 0 auto;
+    width: 80%;
     display: flex;
-    gap: 600px;
+    gap: 500px;
     justify-content: center;
+}
+
+.ft-img{
+    padding-left: 10px;
+    width: 24px;
+}
+.foot2-img{
+    margin-top: 10px;
 }
